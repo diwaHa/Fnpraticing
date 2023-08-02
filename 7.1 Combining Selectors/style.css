@@ -1,0 +1,20 @@
+/* Write your code here: */
+ h1,h2{
+    color: blueviolet;
+ }
+ /*Child*/
+ .box>p{
+    color: firebrick;
+ }
+ /*descendent*/
+  .box li {
+   color: blue;
+  }
+  /*chainning*/
+  li.done{
+   color: seagreen;
+  }
+/*combining Selector*/
+ul p.done{
+   font-size: 0.5rem;
+}
